@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls label {
+    margin-right: 10px;
+}
+
+.controls input {
+    margin-right: 20px;
+    padding: 5px;
+    width: 80px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#startButton:hover {
+    background-color: #ff3b2f;
+}
+
+#simulationCanvas {
+    border: 2px solid #fff;
+    background-color: #87CEEB;
+}
